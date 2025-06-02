@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#ffffff">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎵 My Music Player"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Play Button -->
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Pause Button -->
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Stop Button -->
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+</LinearLayout>
